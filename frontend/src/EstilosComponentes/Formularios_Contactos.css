@@ -1,0 +1,53 @@
+.container-nigga {
+    max-width: 400px; 
+    margin: 20px; 
+    margin-bottom: 60px;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  }
+
+  .container-nigga h1{
+    margin-top: 0;
+  } 
+  
+  .container-2 {
+    margin-bottom: 15px; 
+  }
+  
+  .container-2 label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+  }
+  
+  .container-2 input {
+    width: 94%; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+  }
+  
+  .button-submit {
+    background-color: #007bff;
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+  }
+  
+  .button-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    margin-top: 20px; 
+    font-weight: bold; 
+    color: green; 
+  }
+  

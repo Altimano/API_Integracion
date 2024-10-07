@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import '../EstilosComponentes/Lista_Contactos.css';
 
 const ListaContactos = () => {
   const [contacts, setContacts] = useState([]);
@@ -23,7 +24,8 @@ const ListaContactos = () => {
   }, []);
 
   return (
-    <div>
+    <div className='container-nigga2'>
+    <h1>Lista de Contactos</h1>
       { (
         <ul>
           {contacts.map((contact) => (

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import '../EstilosComponentes/Formularios_Contactos.css';
 
 const FormContacto = () => {
   const [nombre, setNombre] = useState('');
@@ -16,7 +17,6 @@ const FormContacto = () => {
       });
 
       setMessage('Contacto creado correctamente!');
-      
     } catch (error) {
       setMessage('Hubo un error al crear el contacto');
       console.error(error);
@@ -24,9 +24,10 @@ const FormContacto = () => {
   };
 
   return (
-    <div>
+    <div className="container-nigga"> 
+    <h1>Formulario para añadir contacto</h1>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="container-2"> 
           <label>Nombre:</label>
           <input
             type="text"
@@ -35,7 +36,7 @@ const FormContacto = () => {
             required
           />
         </div>
-        <div>
+        <div className="container-2"> 
           <label>Numero:</label>
           <input
             type="text"
@@ -44,9 +45,9 @@ const FormContacto = () => {
             required
           />
         </div>
-        <button type="submit">Agregar Contacto</button>
+        <button type="submit" className="button-submit">Agregar Contacto</button> 
       </form>
-      {message && <p>{message}</p>}
+      {message && <p className="message">{message}</p>} 
     </div>
   );
 };

@@ -5,10 +5,8 @@ import FormContacto from './componentes/Formulario_contactos';
 const App = () => {
   return (
     <div>
-      <h1>Lista de Contactos</h1>
-      <ListaContactos />
-      <h2>Crear un contacto</h2>
       <FormContacto />
+      <ListaContactos />
     </div>
   );
 };
