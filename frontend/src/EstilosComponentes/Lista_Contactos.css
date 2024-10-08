@@ -1,4 +1,4 @@
-.container-nigga2 {
+.container-contactos {
     max-width: 100%; 
     margin: 20px; 
     padding: 20px;
@@ -8,15 +8,15 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
-.container-nigga2 h1 {
+.container-contactos h1 {
     margin-top: 0;
 }
 
-.container-nigga2 li {
+.container-contactos li {
     margin-bottom: 20px;
 }
   
-.container-nigga2 h3,p {
+.container-contactos h3,p {
     margin: 5px;
 }
   

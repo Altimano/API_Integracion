@@ -24,7 +24,7 @@ const ListaContactos = () => {
   }, []);
 
   return (
-    <div className='container-nigga2'>
+    <div className='container-contactos'>
     <h1>Lista de Contactos</h1>
       { (
         <ul>

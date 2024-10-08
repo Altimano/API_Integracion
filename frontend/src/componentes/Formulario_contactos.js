@@ -24,7 +24,7 @@ const FormContacto = () => {
   };
 
   return (
-    <div className="container-nigga"> 
+    <div className="container-formulario"> 
     <h1>Formulario para añadir contacto</h1>
       <form onSubmit={handleSubmit}>
         <div className="container-2"> 
