@@ -52,6 +52,7 @@ const getContact = async(req, res) => {
 			status: "ok todo correcto",
 			message: "obtenido correctamente",
 			data: {
+				"id": 1,
 				"nombre": "JOSE",
 				"numero": 9992278922
 			}
